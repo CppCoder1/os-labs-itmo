@@ -1,0 +1,245 @@
+21:02:10,042 Infomation: main: /sbin/anaconda 29.19.2.17-1.el8
+21:02:10,299 Infomation: isys: 2166000 kB (2115 MB) are available
+21:02:10,311 Infomation: startup_utils: check_memory(): total:2115, needed:320, graphical:410
+21:02:10,318 Infomation: main: anaconda called with cmdline = ['/sbin/anaconda']
+21:02:10,319 Infomation: main: Default encoding = utf-8 
+21:02:10,332 Infomation: dbus.connection: Connecting to a default bus at unix:abstract=/tmp/dbus-mBiSvoFF8e,guid=5089ab05c94e625654d76a8c5f481f52.
+21:02:10,903 Infomation: startup_utils: Waiting 600 sec for modules to be started.
+21:02:11,906 Infomation: startup_utils: Waiting 599 sec for modules to be started.
+21:02:12,908 Infomation: startup_utils: Waiting 598 sec for modules to be started.
+21:02:13,910 Infomation: startup_utils: Waiting 597 sec for modules to be started.
+21:02:14,924 Infomation: startup_utils: Waiting 596 sec for modules to be started.
+21:02:15,926 Infomation: startup_utils: Waiting 595 sec for modules to be started.
+21:02:16,928 Infomation: startup_utils: Waiting 594 sec for modules to be started.
+21:02:18,030 Infomation: startup_utils: Parsing kickstart: /usr/share/anaconda/interactive-defaults.ks
+21:02:18,523 Warning: kickstart: Command firstboot will be parsed in DBus module.
+21:02:18,791 Infomation: threading: Running Thread: AnaWaitForConnectingNMThread (140429741389568)
+21:02:18,803 Infomation: threading: Thread Done: AnaWaitForConnectingNMThread (140429741389568)
+21:02:18,809 Warning: stdout: Not asking for VNC because we don't have a network
+21:02:18,810 Infomation: anaconda: Display mode is set to 'interactive graphical mode'.
+21:02:18,811 Infomation: isys: 2166000 kB (2115 MB) are available
+21:02:18,818 Infomation: startup_utils: check_memory(): total:2115, needed:320, graphical:410
+21:02:20,618 Infomation: display: Started spice-vdagent.
+21:02:21,491 Infomation: installclass: Using a visible install class CentOS Linux (CentOSBaseInstallClass).
+21:02:22,100 Infomation: bootloader: bootloader GRUB2 on X86 platform
+21:02:22,105 Infomation: autopart: Detected 2.07 GiB of memory
+21:02:22,107 Infomation: autopart: Suggested swap size (2.07 GiB) exceeds 10 % of disk space, using 10 % of disk space (0.0) instead.
+21:02:22,109 Infomation: autopart: Swap attempt of 0.0
+21:02:22,110 Infomation: bootloader: bootloader GRUB2 on X86 platform
+21:02:22,187 Infomation: threading: Running Thread: AnaStorageThread (140429741389568)
+21:02:22,192 Infomation: threading: Running Thread: AnaTimeInitThread (140429412529920)
+21:02:22,276 Infomation: threading: Running Thread: AnaPayloadRestartThread (140429400725248)
+21:02:22,276 Infomation: geoloc: Geolocation is enabled.
+21:02:22,279 Infomation: threading: Running Thread: AnaPayloadThread (140429392332544)
+21:02:22,280 Infomation: threading: Thread Done: AnaPayloadRestartThread (140429400725248)
+21:02:24,632 Warning: misc: /usr/lib64/python3.6/site-packages/gi/overrides/Gdk.py:336: DeprecationWarning:: Gdk.Cursor.new is deprecated
+21:02:26,559 Infomation: threading: Thread Done: AnaStorageThread (140429741389568)
+21:02:28,001 Infomation: threading: Thread Done: AnaTimeInitThread (140429412529920)
+21:02:28,117 Infomation: payload: Refreshing environmentAddons
+21:02:28,172 Infomation: threading: Thread Done: AnaPayloadThread (140429392332544)
+21:02:56,820 Infomation: lifecycle: Adding controller: SummaryHub
+21:02:58,395 Infomation: threading: Running Thread: AnaAddLayoutsInitThread (140429400725248)
+21:02:58,413 Infomation: threading: Running Thread: AnaGtkBatchPre1 (140429392332544)
+21:02:58,422 Infomation: threading: Thread Done: AnaGtkBatchPre1 (140429392332544)
+21:02:58,540 Infomation: threading: Running Thread: AnaKeyboardThread (140429392332544)
+21:02:58,780 Infomation: lifecycle: Module initialized: LangsupportSpoke
+21:02:59,228 Infomation: threading: Running Thread: AnaNTPserver1 (140429412529920)
+21:02:59,239 Infomation: threading: Running Thread: AnaDateTimeThread (140429741389568)
+21:02:59,307 Infomation: threading: Thread Done: AnaNTPserver1 (140429412529920)
+21:03:00,382 Infomation: threading: Running Thread: AnaSourceWatcher (140429412529920)
+21:03:00,395 Infomation: ui.gui.spokes.software_selection: using environment from kickstart: None
+21:03:00,408 Infomation: threading: Running Thread: AnaSoftwareWatcher (140429314410240)
+21:03:00,467 Infomation: ui.gui.spokes.storage: Blivet-gui is not supported on CentOS Linux
+21:03:00,469 Infomation: threading: Running Thread: AnaStorageWatcher (140429306017536)
+21:03:00,493 Infomation: lifecycle: Module initialized: StorageSpoke
+21:03:00,494 Infomation: threading: Thread Done: AnaStorageWatcher (140429306017536)
+21:03:00,542 Infomation: threading: Running Thread: AnaCustomStorageInit (140429306017536)
+21:03:00,753 Infomation: lifecycle: Module initialized: FilterSpoke
+21:03:00,788 Warning: misc: /usr/share/anaconda/addons/com_redhat_kdump/gui/spokes/kdump.py:80: PyGTKDeprecationWarning:: Using positional arguments with the GObject constructor has been deprecated. Please specify keyword(s) for "value, lower, upper, step_increment, page_increment, page_size" or use a class specific constructor. See: https://wiki.gnome.org/PyGObject/InitializerDeprecations
+21:03:00,885 Infomation: lifecycle: Module initialized: CustomPartitioningSpoke
+21:03:00,885 Infomation: threading: Thread Done: AnaCustomStorageInit (140429306017536)
+21:03:01,047 Infomation: lifecycle: Module initialized: NetworkSpoke
+21:03:01,089 Infomation: lifecycle: Initialization of all modules (9) has been started.
+17:03:01,000 Infomation: isys: System time set to Thu Aug 27 21:03:01 2020 UTC
+17:03:01,000 Infomation: isys: System time set to Thu Aug 27 21:03:01 2020 UTC
+17:03:01,000 Infomation: isys: System time set to Thu Aug 27 21:03:01 2020 UTC
+17:03:01,003 Infomation: lifecycle: Module initialized: DatetimeSpoke
+17:03:01,004 Infomation: threading: Thread Done: AnaDateTimeThread (140429741389568)
+17:03:01,031 Infomation: threading: Running Thread: AnaCheckSoftwareThread (140429741389568)
+17:03:01,031 Infomation: lifecycle: Module initialized: SoftwareSelectionSpoke
+17:03:01,033 Infomation: threading: Thread Done: AnaSoftwareWatcher (140429314410240)
+17:03:01,954 Infomation: threading: Thread Done: AnaCheckSoftwareThread (140429741389568)
+17:03:02,609 Infomation: lifecycle: Module initialized: SourceSpoke
+17:03:02,610 Infomation: threading: Thread Done: AnaSourceWatcher (140429412529920)
+17:03:04,818 Infomation: threading: Thread Done: AnaAddLayoutsInitThread (140429400725248)
+17:03:04,819 Infomation: lifecycle: Module initialized: KeyboardSpoke
+17:03:04,819 Infomation: lifecycle: All modules have been initialized.
+17:03:04,820 Infomation: threading: Thread Done: AnaKeyboardThread (140429392332544)
+00:04:21,000 Infomation: isys: System time set to Thu Aug 27 21:04:21 2020 UTC
+00:06:39,430 Infomation: threading: Running Thread: AnaCheckSoftwareThread (140429400725248)
+00:06:40,218 Infomation: threading: Thread Done: AnaCheckSoftwareThread (140429400725248)
+00:07:28,687 Warning: misc: /usr/lib64/python3.6/site-packages/gi/overrides/GObject.py:553: Warning:: gsignal.c:2641: instance '0x55b5142fff30' has no handler with id '30475'
+00:07:28,688 Warning: misc: /usr/lib64/python3.6/site-packages/gi/overrides/GObject.py:553: Warning:: gsignal.c:2641: instance '0x55b5142fff30' has no handler with id '30476'
+00:07:41,393 Infomation: ui.gui.spokes.storage: Partitioning method changed from auto to custom.
+00:07:41,393 Infomation: ui.gui.spokes.storage: Rolling back planed storage configuration changes.
+00:07:41,454 Infomation: threading: Running Thread: AnaExecuteStorageThread (140429400725248)
+00:07:42,065 Infomation: threading: Thread Done: AnaExecuteStorageThread (140429400725248)
+00:07:56,000 Infomation: autopart: Detected 2.07 GiB of memory
+00:07:56,000 Infomation: autopart: Suggested swap size (2.07 GiB) exceeds 10 % of disk space, using 10 % of disk space (819.2 MiB) instead.
+00:07:56,001 Infomation: autopart: Swap attempt of 819.2 MiB
+00:07:56,037 Infomation: autopart: skipping unneeded stage1 biosboot request
+00:09:01,364 Infomation: ui.gui.spokes.custom_storage: ui: saving changes to device cl-root
+00:09:03,755 Warning: misc: /usr/lib64/python3.6/site-packages/gi/overrides/GObject.py:553: Warning:: gsignal.c:2641: instance '0x55b5111559c0' has no handler with id '34800'
+00:09:03,756 Warning: misc: /usr/lib64/python3.6/site-packages/gi/overrides/GObject.py:553: Warning:: gsignal.c:2641: instance '0x55b5111559c0' has no handler with id '34801'
+00:09:20,027 Infomation: ui.gui.spokes.custom_storage: ui: saving changes to device cl-root
+00:09:41,373 Warning: misc: /usr/lib64/python3.6/site-packages/gi/overrides/GObject.py:553: Warning:: gsignal.c:2641: instance '0x55b5142f1380' has no handler with id '35955'
+00:09:41,374 Warning: misc: /usr/lib64/python3.6/site-packages/gi/overrides/GObject.py:553: Warning:: gsignal.c:2641: instance '0x55b5142f1380' has no handler with id '35956'
+00:10:23,494 Infomation: ui.lib.space: fs space: 3.57 GiB  needed: 2.68 GiB
+00:10:23,631 Infomation: ui.lib.space: fs space: 3.57 GiB  needed: 2.68 GiB
+00:10:48,961 Warning: misc: /usr/lib64/python3.6/site-packages/gi/overrides/GObject.py:553: Warning:: gsignal.c:2641: instance '0x55b514599680' has no handler with id '37815'
+00:10:48,962 Warning: misc: /usr/lib64/python3.6/site-packages/gi/overrides/GObject.py:553: Warning:: gsignal.c:2641: instance '0x55b514599680' has no handler with id '37816'
+00:10:49,189 Infomation: ui.lib.space: fs space: 3.57 GiB  needed: 2.68 GiB
+00:10:49,327 Infomation: ui.lib.space: fs space: 3.57 GiB  needed: 2.68 GiB
+00:11:05,586 Infomation: ui.gui.spokes.network: device enp0s3 switched on
+00:11:52,068 Infomation: ui.lib.space: fs space: 3.57 GiB  needed: 2.68 GiB
+00:12:03,474 Infomation: ui.lib.space: fs space: 3.57 GiB  needed: 2.68 GiB
+00:12:09,253 Infomation: lifecycle: Adding controller: ProgressHub
+00:12:09,269 Infomation: lifecycle: Module initialized: PasswordSpoke
+00:12:09,306 Infomation: lifecycle: Module initialized: UserSpoke
+00:12:09,316 Infomation: lifecycle: Initialization of all modules (2) has been started.
+00:12:09,316 Infomation: lifecycle: All modules have been initialized.
+00:12:09,320 Infomation: threading: Running Thread: AnaInstallThread (140429400725248)
+00:12:09,369 Infomation: installation: Top-level task queue: Installation queue
+00:12:09,371 Infomation: installation: Task started: Save system time to HW clock (1/20)
+00:12:10,502 Infomation: progress: Save system time to HW clock
+00:12:10,503 Infomation: progress: Setting up the installation environment
+00:12:10,503 Infomation: installation: Queue started: Installation environment setup (1/10)
+00:12:10,504 Infomation: installation: Task started: Setup addons (2/20)
+00:12:10,510 Infomation: progress: Setup addons
+00:12:10,512 Infomation: progress: Configuring storage
+00:12:10,512 Infomation: installation: Queue started: Early storage configuration (2/10)
+00:12:10,512 Infomation: installation: Task started: Insert custom storage to ksdata (3/20)
+00:12:10,541 Infomation: storage: omitting ksdata: existing 8 GiB disk sda (13) with non-existent msdos disklabel
+00:12:10,545 Infomation: progress: Insert custom storage to ksdata
+00:12:10,546 Infomation: installation: Task started: Run pre-storage tasks (4/20)
+00:12:10,546 Infomation: progress: Run pre-storage tasks
+00:12:10,547 Infomation: installation: Task started: Activate filesystems (5/20)
+00:12:10,970 Infomation: progress: Creating disklabel on /dev/sda
+00:12:12,078 Infomation: progress: Creating lvmpv on /dev/sda2
+00:12:13,397 Infomation: progress: Creating ext4 on /dev/mapper/cl-root
+00:12:14,440 Infomation: progress: Creating swap on /dev/mapper/cl-swap
+00:12:14,966 Infomation: progress: Creating xfs on /dev/mapper/cl-home
+00:12:15,383 Infomation: progress: Creating ext4 on /dev/sda1
+00:12:16,000 Infomation: storage: setting boot flag on sda1
+00:12:19,483 Infomation: progress: Activate filesystems
+00:12:19,484 Infomation: installation: Task started: Write early storage (6/20)
+00:12:19,494 Infomation: storage: not writing out mpath configuration
+00:12:19,495 Infomation: progress: Write early storage
+00:12:19,497 Infomation: progress: Running pre-installation scripts
+00:12:19,497 Infomation: installation: Queue started: Pre-install scripts (3/10)
+00:12:19,497 Infomation: installation: Task started: Run %pre-install scripts (7/20)
+00:12:19,498 Infomation: progress: Run %pre-install scripts
+00:12:19,499 Infomation: progress: Discovering realm to join
+00:12:19,499 Infomation: installation: Queue started: Realm discover (4/10)
+00:12:19,500 Infomation: installation: Task started: Discover realm to join (8/20)
+00:12:19,505 Infomation: progress: Discover realm to join
+00:12:19,508 Infomation: progress: Running pre-installation tasks
+00:12:19,508 Infomation: installation: Queue started: Pre install tasks (5/10)
+00:12:19,508 Infomation: installation: Task started: Setup authselect (9/20)
+00:12:19,513 Infomation: progress: Setup authselect
+00:12:19,515 Infomation: installation: Task started: Setup firewall (10/20)
+00:12:19,519 Infomation: progress: Setup firewall
+00:12:19,520 Infomation: installation: Task started: Setup network (11/20)
+00:12:19,531 Infomation: progress: Setup network
+00:12:19,532 Infomation: installation: Task started: Setup timezone (12/20)
+00:12:19,604 Infomation: progress: Setup timezone
+00:12:19,605 Infomation: installation: Task started: Copy /resolv.conf to sysroot (13/20)
+00:12:19,607 Infomation: progress: Copy /resolv.conf to sysroot
+00:12:19,609 Infomation: installation: Task started: Find additional packages & run preInstall() (14/20)
+00:12:19,653 Warning: payload: Platform group platform-oracle not available.
+00:12:19,662 Infomation: progress: Find additional packages & run preInstall()
+00:12:19,663 Infomation: progress: Installing.
+00:12:19,663 Infomation: installation: Queue started: Payload installation (6/10)
+00:12:19,664 Infomation: installation: Task started: Install the payload (15/20)
+00:12:19,664 Infomation: progress: Starting package installation process
+00:12:23,284 Infomation: progress: Preparing transaction from installation source
+00:12:42,930 Infomation: ui.gui.spokes.root_password: Return to hub prevented by password checking rules.
+00:13:21,956 Infomation: ui.gui.spokes.user: Return to hub prevented by password checking rules.
+00:19:07,126 Infomation: progress: Install the payload
+00:19:07,128 Infomation: progress: Configuring storage
+00:19:07,128 Infomation: installation: Queue started: Late storage configuration (7/10)
+00:19:07,129 Infomation: installation: Task started: Write late storage (16/20)
+00:19:07,129 Infomation: progress: Write late storage
+00:19:07,130 Infomation: progress: Configuring Red Hat subscription
+00:19:07,131 Infomation: installation: Queue started: Subscription configuration (8/10)
+00:19:07,131 Infomation: installation: Task started: Transfer subscription tokens to target system (17/20)
+00:19:08,138 Infomation: progress: Transfer subscription tokens to target system
+00:19:08,139 Infomation: installation: Task started: Connect the target system to Red Hat Insights (18/20)
+00:19:09,145 Infomation: progress: Connect the target system to Red Hat Insights
+00:19:09,147 Infomation: progress: Installing boot loader
+00:19:09,147 Infomation: installation: Queue started: Bootloader installation (9/10)
+00:19:09,148 Infomation: installation: Task started: Install bootloader (19/20)
+00:19:09,148 Infomation: bootloader: boot loader stage1 target device is sda
+00:19:09,149 Infomation: bootloader: boot loader stage2 target device is sda1
+00:19:09,396 Infomation: bootloader: bootloader.py: mbr will be updated for grub2
+00:19:11,947 Infomation: bootloader: bootloader.py: used boot args: crashkernel=auto resume=/dev/mapper/cl-swap rd.lvm.lv=cl/root rd.lvm.lv=cl/swap 
+00:19:16,906 Infomation: progress: Install bootloader
+00:19:16,907 Infomation: progress: Performing post-installation setup tasks
+00:19:16,908 Infomation: installation: Queue started: Post-installation setup tasks (10/10)
+00:19:16,908 Infomation: installation: Task started: Run post-installation setup tasks (20/20)
+00:19:16,949 Infomation: payload: Installation requirements: [('package', 'e2fsprogs', PayloadRequirement(id=e2fsprogs, reasons=[PayloadRequirementReason(reason='storage', strong=True)])), ('package', 'lvm2', PayloadRequirement(id=lvm2, reasons=[PayloadRequirementReason(reason='storage', strong=True)])), ('package', 'xfsprogs', PayloadRequirement(id=xfsprogs, reasons=[PayloadRequirementReason(reason='storage', strong=True)])), ('package', 'authselect', PayloadRequirement(id=authselect, reasons=[PayloadRequirementReason(reason='authselect', strong=True)])), ('package', 'grub2', PayloadRequirement(id=grub2, reasons=[PayloadRequirementReason(reason='bootloader', strong=True)])), ('package', 'grub2-tools', PayloadRequirement(id=grub2-tools, reasons=[PayloadRequirementReason(reason='bootloader', strong=True)]))]
+00:19:16,951 Infomation: progress: Run post-installation setup tasks
+00:19:16,952 Infomation: threading: Thread Done: AnaInstallThread (140429400725248)
+00:19:17,013 Infomation: threading: Running Thread: AnaConfigurationThread (140429400725248)
+00:19:17,057 Infomation: installation: Top-level task queue: Configuration queue
+00:19:17,058 Infomation: progress: Configuring installed system
+00:19:17,058 Infomation: installation: Queue started: Installed system configuration (1/7)
+00:19:17,059 Infomation: installation: Task started: Configure authselect (1/20)
+00:19:17,064 Infomation: progress: Configure authselect
+00:19:17,065 Infomation: installation: Task started: Configure SELinux (2/20)
+00:19:17,070 Infomation: progress: Configure SELinux
+00:19:17,071 Infomation: installation: Task started: Configure first boot tasks (3/20)
+00:19:17,076 Infomation: progress: Configure first boot tasks
+00:19:17,077 Infomation: installation: Task started: Configure services (4/20)
+00:19:17,124 Infomation: progress: Configure services
+00:19:17,125 Infomation: installation: Task started: Configure keyboard (5/20)
+00:19:17,763 Infomation: progress: Configure keyboard
+00:19:17,764 Infomation: installation: Task started: Configure timezone (6/20)
+00:19:17,812 Infomation: progress: Configure timezone
+00:19:17,814 Infomation: installation: Task started: Configure language (7/20)
+00:19:18,830 Infomation: progress: Configure language
+00:19:18,831 Infomation: installation: Task started: Configure firewall (8/20)
+00:19:20,242 Infomation: progress: Configure firewall
+00:19:20,243 Infomation: installation: Task started: Configure X (9/20)
+00:19:20,250 Infomation: progress: Configure X
+00:19:20,251 Infomation: installation: Task started: Configure system purpose (10/20)
+00:19:20,256 Infomation: progress: Configure system purpose
+00:19:20,258 Infomation: progress: Writing network configuration
+00:19:20,258 Infomation: installation: Queue started: Network configuration (2/7)
+00:19:20,258 Infomation: installation: Task started: Network configuration (11/20)
+00:19:20,415 Infomation: progress: Network configuration
+00:19:20,417 Infomation: progress: Creating users
+00:19:20,417 Infomation: installation: Queue started: User creation (3/7)
+00:19:20,418 Infomation: installation: Task started: Configure root (12/20)
+00:19:20,831 Infomation: progress: Configure root
+00:19:20,831 Infomation: installation: Task started: Configure user groups (13/20)
+00:19:20,832 Infomation: progress: Configure user groups
+00:19:20,833 Infomation: installation: Task started: Configure user (14/20)
+00:19:21,173 Infomation: progress: Configure user
+00:19:21,174 Infomation: installation: Task started: Configure SSH key (15/20)
+00:19:21,174 Infomation: progress: Configure SSH key
+00:19:21,175 Infomation: progress: Configuring addons
+00:19:21,176 Infomation: installation: Queue started: Anaconda addon configuration (4/7)
+00:19:21,176 Infomation: installation: Task started: Configure Anaconda addons (16/20)
+00:19:21,177 Infomation: progress: Executing com_redhat_kdump addon
+00:19:21,210 Infomation: progress: Executing org_fedora_oscap addon
+00:19:21,210 Infomation: progress: Configure Anaconda addons
+00:19:21,212 Infomation: progress: Generating initramfs
+00:19:21,212 Infomation: installation: Queue started: Initramfs generation (5/7)
+00:19:21,213 Infomation: installation: Task started: Generate initramfs (17/20)
+00:19:21,303 Infomation: payload: recreating initrd for 4.18.0-193.el8.x86_64
+00:19:58,939 Infomation: progress: Generate initramfs
+00:19:58,940 Infomation: progress: Running post-installation scripts
+00:19:58,940 Infomation: installation: Queue started: Post installation scripts (6/7)
+00:19:58,941 Infomation: installation: Task started: Run post installation scripts (18/20)
+00:19:58,941 Infomation: kickstart.script: Running kickstart %%post script(s)
